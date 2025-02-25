@@ -1,0 +1,3 @@
+version: v1.1.0
+steps:
+  - build: -t $Registry/windows/servercore:test1 -f Dockerfile .
